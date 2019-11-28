@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>EventDispatcher</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Jacob Mason</Authors>
+    <Company>Mason Software Solutions</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/MasonSoftwareSolutions/EventDispatcher.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
