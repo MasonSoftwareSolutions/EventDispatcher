@@ -17,3 +17,12 @@ await _db.SaveChangesAsync(cancellationToken);
 // Tell the event dispatcher to replay dispatched events for deferred event handlers
 await _eventDispatcher.Deferred(cancellationToken);
 ```
+
+## Installation
+Install Event Dispatcher with [NuGet](https://www.nuget.org/packages/MasonSoftwareSolutions.EventDispatcher/):
+
+    Install-Package MasonSoftwareSolutions.EventDispatcher
+    
+Or via the .NET Core command line interface:
+
+    dotnet add package MasonSoftwareSolutions.EventDispatcher
